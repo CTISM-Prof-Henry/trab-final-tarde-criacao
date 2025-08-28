@@ -63,7 +63,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  width: 270px;
+  width: 350px;
   background: #fff;
   padding: 15px 10px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
@@ -242,4 +242,5 @@ body {
   #sidebar-open {
     display: block;
   }
+
 }
