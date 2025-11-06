@@ -1,13 +1,9 @@
-
-## De classe
-<img width="2597" height="1798" alt="image" src="https://github.com/user-attachments/assets/de4c067e-0fc2-4c3a-8c8d-03a2ea4e441b" /># Diagramas
-
+# Diagramas
 Teste o código dos diagramas em [https://mermaid.live](https://mermaid.live)
+## De classe
+<img width="2597" height="1798" alt="image" src="https://github.com/user-attachments/assets/de4c067e-0fc2-4c3a-8c8d-03a2ea4e441b" />
+
 ```
----
-config:
-  layout: dagre
----
 classDiagram
     class Usuario {
         +int idUsuario
@@ -83,10 +79,11 @@ classDiagram
     Investimento <|-- FundoImobiliario : é um
     Conta "1" --> "*" Credito : pode ter
     Usuario "1" --> "1" RelatorioFinanceiro : gera
+
 ```
 ## De caso de uso
-``` mermaid
-flowchart TD
+<img width="2316" height="670" alt="image" src="https://github.com/user-attachments/assets/7e487141-43e3-40ff-8047-7349e1b4026f" />
+ flowchart TD
     Usuario(["Usuário"])
     Conta(["Gerenciar Conta"])
     Transacao(["Realizar Transação"])
