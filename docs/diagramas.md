@@ -85,6 +85,8 @@ classDiagram
 <img width="2456" height="870" alt="image" src="https://github.com/user-attachments/assets/3ac16cb4-1c29-451f-848f-5f849fa10401" />
 
 
+```
+ 
 flowchart TD
 
     subgraph "Ator"
