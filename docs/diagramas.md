@@ -1,3 +1,9 @@
+# Diagramas
+
+Teste o código dos diagramas em [https://mermaid.live](https://mermaid.live)
+
+## De classe
+
 classDiagram
     class Usuario {
         +int idUsuario
