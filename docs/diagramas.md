@@ -1,9 +1,13 @@
-# Diagramas
-
-Teste o código dos diagramas em [https://mermaid.live](https://mermaid.live)
 
 ## De classe
+<img width="2597" height="1798" alt="image" src="https://github.com/user-attachments/assets/de4c067e-0fc2-4c3a-8c8d-03a2ea4e441b" /># Diagramas
 
+Teste o código dos diagramas em [https://mermaid.live](https://mermaid.live)
+```
+---
+config:
+  layout: dagre
+---
 classDiagram
     class Usuario {
         +int idUsuario
@@ -79,3 +83,4 @@ classDiagram
     Investimento <|-- FundoImobiliario : é um
     Conta "1" --> "*" Credito : pode ter
     Usuario "1" --> "1" RelatorioFinanceiro : gera
+```
