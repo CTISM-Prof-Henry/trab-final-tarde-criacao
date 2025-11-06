@@ -84,7 +84,7 @@ classDiagram
     Conta "1" --> "*" Credito : pode ter
     Usuario "1" --> "1" RelatorioFinanceiro : gera
 ```
-## DE CASO DE USO
+## De caso de uso
 ``` mermaid
 flowchart TD
     Usuario(["Usuário"])
