@@ -82,22 +82,30 @@ classDiagram
 
 ```
 ## De caso de uso
-<img width="2316" height="670" alt="image" src="https://github.com/user-attachments/assets/7e487141-43e3-40ff-8047-7349e1b4026f" />
- flowchart TD
-    Usuario(["Usuário"])
-    Conta(["Gerenciar Conta"])
-    Transacao(["Realizar Transação"])
-    Investimento(["Aplicar/Resgatar Investimento"])
-    Credito(["Solicitar Crédito"])
-    Relatorio(["Gerar Relatório Financeiro"])
-    Poupanca(["Aplicar em Poupança"])
-    FundoImobiliario(["Aplicar em Fundo Imobiliário"])
+<img width="2456" height="870" alt="image" src="https://github.com/user-attachments/assets/3ac16cb4-1c29-451f-848f-5f849fa10401" />
 
-    Usuario -- "Acessa" --> Conta
-    Usuario -- "Realiza" --> Transacao
-    Usuario -- "Investe em" --> Investimento
-    Usuario -- "Solicita" --> Credito
-    Usuario -- "Consulta" --> Relatorio
-    Investimento -- "Inclui" --> Poupanca
-    Investimento -- "Inclui" --> FundoImobiliario
+
+flowchart TD
+
+    subgraph "Ator"
+      Usuario(["Usuário"])
+    end
+    subgraph "Casos de Uso"
+      CU1(["Gerenciar Conta"])
+      CU2(["Realizar Transação"])
+      CU3(["Aplicar/Resgatar Investimento"])
+      CU4(["Solicitar Crédito"])
+      CU5(["Gerar Relatório Financeiro"])
+      CU6(["Aplicar em Poupança"])
+      CU7(["Aplicar em Fundo Imobiliário"])
+    end
+
+    Usuario -- "Acessa" --> CU1
+    Usuario -- "Realiza" --> CU2
+    Usuario -- "Investe em" --> CU3
+    Usuario -- "Solicita" --> CU4
+    Usuario -- "Consulta" --> CU5
+    CU3 -- "Inclui" --> CU6
+    CU3 -- "Inclui" --> CU7
+    
 ```
