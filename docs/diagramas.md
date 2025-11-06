@@ -84,3 +84,23 @@ classDiagram
     Conta "1" --> "*" Credito : pode ter
     Usuario "1" --> "1" RelatorioFinanceiro : gera
 ```
+## DE CASO DE USO
+``` mermaid
+flowchart TD
+    Usuario(["Usuário"])
+    Conta(["Gerenciar Conta"])
+    Transacao(["Realizar Transação"])
+    Investimento(["Aplicar/Resgatar Investimento"])
+    Credito(["Solicitar Crédito"])
+    Relatorio(["Gerar Relatório Financeiro"])
+    Poupanca(["Aplicar em Poupança"])
+    FundoImobiliario(["Aplicar em Fundo Imobiliário"])
+
+    Usuario -- "Acessa" --> Conta
+    Usuario -- "Realiza" --> Transacao
+    Usuario -- "Investe em" --> Investimento
+    Usuario -- "Solicita" --> Credito
+    Usuario -- "Consulta" --> Relatorio
+    Investimento -- "Inclui" --> Poupanca
+    Investimento -- "Inclui" --> FundoImobiliario
+```
