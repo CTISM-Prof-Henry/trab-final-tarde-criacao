@@ -1,6 +1,5 @@
-# Simulador de aplicações financeiras e crédito
+# Simulador de crédito e aplicações financeiras 
 Este repositório apresenta o projeto de software de Simulação de aplicações financeiras e crédito, seguindo todas as boas práticas da Engenharia de Software.
-
 
 ## Sumário
 
@@ -14,17 +13,11 @@ Este repositório apresenta o projeto de software de Simulação de aplicações
 
 ## Instalação
 
-
 ## Instruções de Uso
-
 
 ## Contato
 
-
-
 ## Bibliografia
-
-
 
 ## Checklist
 
@@ -52,8 +45,5 @@ linter
 
 ## Configuração
 
-Confira as instruções de configuração em 
-
 ## Execução
 
-Confira o site rodando em 
